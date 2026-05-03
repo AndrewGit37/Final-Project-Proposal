@@ -127,7 +127,12 @@ class SoundVisualizer:
             + (1 - SMOOTHING_FACTOR) * magnitude
         )
 
-        normalized_magnitude = self.smoothed_magnitudes / self.smoothed_magnitudes.max()
+        max_val = self.smoothed_magnitudes.max()
+
+        if max_val == 0:
+                normalized_magnitude = np.zeros_like(self.smoothed_magnitudes)
+        else:
+                normalized_magnitude = self.smoothed_magnitudes / max_val
         normalized_magnitude = np.clip(normalized_magnitude, 0, 1)
 
         for i in range(num_bars):
