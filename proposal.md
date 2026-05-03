@@ -54,3 +54,19 @@ This program explores digital art through real-time audiovisuals generated from 
   1. Add customization options and improve visuals
   2. Final testing and submission
 
+- **Description of functions and effects used for visualizers**
+  1. Loads and plays audio from a WAV file
+  2. Animates bars based on the music
+  3. Splits sound into bass, mid, and treble
+  4. Press 1 → changes color to white
+  5. Press 2 → changes color to orange
+  6. Press 3 → changes color to pink
+  7. Press 4 → changes color to purple
+  8. Press 5 → changes color to red
+  9. Press 6 → switches to bar shape
+ 10. Press 7 → switches to circle shape
+ 11. Press 8 → switches to diamond shape
+ 12. Press 9 → turns on trail (afterimage) effect
+ 13. Press 0 → turns off trail effect
+ 14. Press P → pauses/unpauses music and visuals
+ 15. Includes particle effects that react to the music—fewer particles for slow songs, more for faster or louder songs
