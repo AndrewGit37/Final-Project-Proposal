@@ -58,19 +58,18 @@ This program explores digital art through real-time audiovisuals generated from 
 
 
 - **Description of functions and effects used for visualizers**
-  1. Implemented audio capture from WAV file
-  2. Implemented animation of bars 
-  3. Separated frequencies from bars into Bass, midrange, and treble
-  4. Keyboard press 1 changes color of visualizer to white
-  5. Keyboard press 2 changes color of visualizer to Orange
-  6. Keyboard press 3 changes color of visualizer to Pink
-  7. Keyboard press 4 changes color of visualizer to Purple
-  8. Keyboard press 5 changes color of visualizer to Red
-  9. Keyboard press 6 changes shape of visualizer to Default bars
- 10. Keyboard press 7 changes shape of visualizer to circles 
- 11. Keyboard press 8 changes shape of visualizer tov diamonds
- 12. Keyboard press 9 turns on trail effect that gives the visualizer a bit of an after image effect on it
- 13. Keyboard press 0 turns off trail effect
- 14. Keyboard press P pauses and unpauses music and visualizer
- 15. Visualizer has a particle effect on it and shows the amount of particles based on the frequencies of the song. For example if the song is slow the particles will barely
-     show up. However in the second song the particles are abundant and are very prominent in the demo.
+  1. Loads and plays audio from a WAV file
+  2. Animates bars based on the music
+  3. Splits sound into bass, mid, and treble
+  4. Press 1 → changes color to white
+  5. Press 2 → changes color to orange
+  6. Press 3 → changes color to pink
+  7. Press 4 → changes color to purple
+  8. Press 5 → changes color to red
+  9. Press 6 → switches to bar shape
+ 10. Press 7 → switches to circle shape
+ 11. Press 8 → switches to diamond shape
+ 12. Press 9 → turns on trail (afterimage) effect
+ 13. Press 0 → turns off trail effect
+ 14. Press P → pauses/unpauses music and visuals
+ 15. Includes particle effects that react to the music—fewer particles for slow songs, more for faster or louder songs
