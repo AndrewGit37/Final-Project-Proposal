@@ -7,7 +7,7 @@ Python Audio Visualizer
 
 # Demo
 
-Demo Video: https://youtu.be/6SsUfIcZjvk
+Demo Video: https://youtu.be/Ckh5hV3kPZY
 
 ## Repository
 
